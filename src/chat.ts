@@ -9,7 +9,7 @@ export class Chat {
   }
 
   private generatePrompt = (patch: string) => {
-    return `You are a senior software engineer with more than 15 years of experience. Bellow is the code patch, please help me do a code review, and tell me if any securities risk and improvement, optimize suggestion
+    return `give me some suggestions to improve this code, make it more clean as possible and tell me if have any securities risk:
     ${patch}
     `;
   };
