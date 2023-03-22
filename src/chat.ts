@@ -9,7 +9,7 @@ export class Chat {
   }
 
   private generatePrompt = (patch: string) => {
-    return `give me some suggestions to improve this code, make it more clean as possible and tell me if have any securities risk:
+    return `optimize this code, make it more clean, easy to read and ignore "public record" classes and if this code is ok:
     ${patch}
     `;
   };
